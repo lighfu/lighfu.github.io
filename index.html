@@ -34,7 +34,8 @@
         <div class="header-content">
             <!-- Video Section -->
             <div class="video-container">
-                <video src="out.mp4" autoplay loop muted playsinline class="hero-video"></video>
+                <video src="out.mp4" autoplay loop muted playsinline class="hero-video" id="video-trigger"
+                    style="cursor: pointer;"></video>
             </div>
 
             <!-- Name and Sprout Layout -->
@@ -67,6 +68,7 @@
                     <li><span>趣味</span> PC</li>
                     <li><span>使用環境</span> PCVR / Desktop</li>
                     <li><span>使用言語</span> 日本語</li>
+                    <li><span>好きなアバター</span> シフォン</li>
                 </ul>
             </div>
 
@@ -186,6 +188,32 @@
             </div>
 
             <p class="click-to-close">Click anywhere to close</p>
+        </div>
+    </div>
+
+    <!-- Gallery Overlay -->
+    <div id="gallery-overlay" class="secret-overlay">
+        <div class="expanding-circle"></div>
+        <div class="gallery-container">
+            <h2 class="gallery-title">My Memories</h2>
+            <div class="gallery-view">
+                <div class="gallery-track" id="gallery-track">
+                    <img src="gallery/VRChat_2025-03-29_17-07-49.328_1920x1080.webp" loading="lazy" class="gallery-img">
+                    <img src="gallery/VRChat_2025-04-06_03-50-35.555_2560x1440.webp" loading="lazy" class="gallery-img">
+                    <img src="gallery/VRChat_2025-04-23_00-36-33.377_2560x1440.webp" loading="lazy" class="gallery-img">
+                    <img src="gallery/VRChat_2025-05-08_01-01-33.942_2560x1440.webp" loading="lazy" class="gallery-img">
+                    <img src="gallery/VRChat_2025-05-09_23-46-23.991_2560x1440.webp" loading="lazy" class="gallery-img">
+                    <img src="gallery/VRChat_2025-06-08_03-06-03.198_2048x1440.webp" loading="lazy" class="gallery-img">
+                    <img src="gallery/VRChat_2025-08-11_03-06-41.257_3840x2160.webp" loading="lazy" class="gallery-img">
+                    <img src="gallery/VRChat_2025-11-05_00-55-37.173_3840x2160.webp" loading="lazy" class="gallery-img">
+                    <img src="gallery/VRChat_2025-11-30_15-52-38.015_1920x1080.webp" loading="lazy" class="gallery-img">
+                    <img src="gallery/VRChat_2025-12-11_08-03-20.157_2048x1440.webp" loading="lazy" class="gallery-img">
+                    <img src="gallery/VRChat_2025-12-21_17-03-52.553_3840x2160.webp" loading="lazy" class="gallery-img">
+                    <img src="gallery/VRChat_2026-01-01_00-19-37.719_2048x1440.webp" loading="lazy" class="gallery-img">
+                    <img src="gallery/VRChat_2026-01-01_02-32-24.471_2048x1440.webp" loading="lazy" class="gallery-img">
+                </div>
+            </div>
+            <p class="click-to-close" style="color: var(--accent-color);">Click anywhere to close</p>
         </div>
     </div>
 
